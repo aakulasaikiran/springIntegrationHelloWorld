@@ -1,0 +1,26 @@
+<beans:beans
+	xmlns="http://www.springframework.org/schema/integration"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:beans="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+        http://www.springframework.org/schema/integration
+        http://www.springframework.org/schema/integration/spring-integration-1.0.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context-2.5.xsd">
+
+
+	<!-- <int:channel id="inputChannel"/> <int:channel id="outputChannel"> <int:queue 
+		capacity="10"/> </int:channel> -->
+
+	<!-- <bean id="springIntHelloWorldExample" class="com.javarticles.spring.integration.SpringIntegrationHelloWorldExample"> 
+		<property name="inputChannel" ref="inputChannel" /> </bean> -->
+
+	<!-- <bean id="greeting" class="com.javarticles.spring.integration.Greeting"/> -->
+
+	<!-- <int:service-activator input-channel="inputChannel" ref="greeting" 
+		output-channel="outputChannel"/> -->
+	<!-- <context:component-scan
+		base-package="com.javarticles.spring.integration" /> -->
+</beans:beans>
